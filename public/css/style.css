@@ -1,0 +1,6 @@
+* {box-sizing: border-box;}
+
+.App {
+	height: 100vh;
+	background-color: rgb(7, 31, 42);
+}
