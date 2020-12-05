@@ -1,7 +1,7 @@
 * {box-sizing: border-box;}
 
 a, a:visited {
-	color:  #4287f5;
+	color: lime;
 }
 
 ul {
@@ -51,7 +51,9 @@ li {
 
 .page-content {
 	width: calc(100% - 275px);
-	display: inline-block;
+	height: 100%;
+	display: inline-flex;
+	flex-flow: column;
 	vertical-align: top;
 	color: white;
 }
@@ -61,20 +63,95 @@ li {
 	border-bottom: 1px solid #444;
 }
 
+.subnav ul {
+	width: 100%;
+	display: flex;
+}
+
 .subnav li {
 	display: inline-block;
+	flex-grow: 1;
 }
 
 .subnav-link {
 	text-align: center;
-	width: 200px;
 	border-bottom: none;
 	border-right: 1px solid #444;
-	display: inline-block;
 	padding: 15px 30px;
 }
 
 .home {
-	width: 75%;
+	width: 100%;
+	flex: 1 1 auto;
+	position: relative;
+}
+
+#stars {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.messagebox {
+	position: absolute;
+	transform: translate(50%, 0);
+	width: 50%;
+	height: 95%;
+	margin-top: 20px;
+	background-color: #222;
+	padding: 0px 30px;
+	border-radius: 20px;
+}
+
+.messagebox h1 {
+	margin-bottom: 40px;
+}
+
+.avatar {
+	background-color: white;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%; 
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.avatar img {
+	width: 40px;
+}
+
+.message {
+	display: inline-block;
+	width: 80%;
+	padding: 13px;
+	background-color: purple;
+	border-radius: 16px;
+	position: relative;
+	margin-bottom: 30px;
 	margin-left: 30px;
+}
+
+.message:before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	background: purple;
+	border-bottom-right-radius: 12px;
+}
+
+.message:after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: #222;
+  border-bottom-right-radius: 10px;
 }
