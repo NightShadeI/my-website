@@ -1,14 +1,34 @@
 * {box-sizing: border-box;}
 
+a, a:visited {
+	color:  #4287f5;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	color: white;
+	list-style-type: none;
+}
+
 .App {
 	height: 100vh;
 	background-color: rgb(7, 31, 42);
 }
 
 .navbar {
-	border-right: 1px solid #888;
+	border-right: 1px solid #444;
 	width: 275px;
 	height: 100%;
+	display: inline-block;
+}
+
+.navbar a {
+	color: white;
+	text-decoration: none;
 }
 
 .nav-profile img {
@@ -16,26 +36,45 @@
 	width: 100%;
 }
 
-.nav-links ul {
-	padding: 0;
-	margin: 0;
-}
-
-.nav-links li {
-	color: white;
-	list-style-type: none;
-}
-
 .nav-link {
-	border-bottom: 1px solid #888;
-	padding: 20px 0;
-	padding-left: 30px;
+	border-bottom: 1px solid #444;
+	padding: 20px 30px;
 }
 
 .nav-link:hover {
-	background-color: rgb(7, 31, 60);
+	background-color: rgb(40, 96, 134);
 }
 
 .nav-link i {
 	margin-right: 0.5em;
+}
+
+.page-content {
+	width: calc(100% - 275px);
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+}
+
+.subnav {
+	width: 100%;
+	border-bottom: 1px solid #444;
+}
+
+.subnav li {
+	display: inline-block;
+}
+
+.subnav-link {
+	text-align: center;
+	width: 200px;
+	border-bottom: none;
+	border-right: 1px solid #444;
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+.home {
+	width: 75%;
+	margin-left: 30px;
 }

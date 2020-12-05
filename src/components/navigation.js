@@ -4,7 +4,7 @@ const Navigation = () => {
 	return (
 		<div className="navbar">
 			<div className="nav-profile">
-				<img src="./images/bird.jpg"/>
+				<img src="/images/bird.jpg" alt="me"/>
 			</div>
 			<div className="nav-links">
 				<ul>
@@ -13,6 +13,7 @@ const Navigation = () => {
 					<Navlink text="Work experience" fa_code="fa fa-briefcase"/>
 					<Navlink text="Education" fa_code="fa fa-graduation-cap"/>
 					<Navlink text="Projects" fa_code="fa fa-star"/>
+					<Navlink text="Contact me" fa_code="fa fa-question"/>
 				</ul>
 			</div>
 		</div>
