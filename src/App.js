@@ -19,7 +19,7 @@ function App() {
                 <Subnavlink text="Introductions"/>
                 <Subnavlink text="About me"/>
                 <Subnavlink text="Hobbies"/>
-                <Subnavlink text="Social media"/>
+                <Subnavlink text="Links"/>
                 <Subnavlink text="References"/>
               </Subnav>
               <Home/>
