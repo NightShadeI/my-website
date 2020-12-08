@@ -1,7 +1,9 @@
+import Avatar from "./avatar.js"
+
 const Message = (props) => {
 	return (
 		<div className="message-container">
-			<div className="avatar"><img src="/images/avatar.jpg" alt="avatar"/></div>
+			<Avatar/>
 			<div className="message">
 				{props.children}
 			</div>

@@ -1,10 +1,15 @@
-const Subnavlink = ({text}) => {
+import {Link} from 'react-router-dom'
+
+const Subnavlink = ({text, link}) => {
 	return (
 		<li>
-			<div className="nav-link subnav-link">
-				<span>{text}</span>
-			</div>
+			<Link to={link}>
+				<div className="nav-link subnav-link">
+					<span>{text}</span>
+				</div>
+			</Link>
 		</li>
+		
 	)
 }
 
