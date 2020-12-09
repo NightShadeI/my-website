@@ -2,6 +2,7 @@ import Navigation from "./components/navigation.js";
 import Subnav from "./components/subnav.js";
 import Subnavlink from "./components/subnavlink.js";
 import Home from "./components/home.js";
+import Skills from "./components/skills.js";
 import {
   BrowserRouter as Router,
   Switch, Route, Redirect
@@ -21,7 +22,9 @@ function App() {
                 <Subnavlink text="Hobbies" link="/home/hobbies"/>
                 <Subnavlink text="Links" link="/home/links"/>
               </Subnav>
-              <Home/>
+              <div className="page-display">
+                <Home/>
+              </div>
             </Route>
             <Route path="/skills">
               <Subnav>
@@ -30,7 +33,9 @@ function App() {
                 <Subnavlink text="Data science" link="/skills/datasci"/>
                 <Subnavlink text="Leadership" link="/skills/leadership"/>
               </Subnav>
-              <h1>Skills</h1>
+              <div className="page-display">
+                <Skills/>
+              </div>
             </Route>
             <Route path="/experience">
               <Subnav>
@@ -38,14 +43,18 @@ function App() {
                 <Subnavlink text="Macquarie bank" link="/experience/mqbank"/>
                 <Subnavlink text="Other" link="/experience/other"/>
               </Subnav>
-              <h1>Experience</h1>
+              <div className="page-display">
+                <h1>Experience</h1>
+              </div>
             </Route>
             <Route path="/education">
               <Subnav>
                 <Subnavlink text="Macquarie Uni" link="/education/macquni"/>
                 <Subnavlink text="Barker College" link="/education/barker"/>
               </Subnav>
-              <h1>Education</h1>
+              <div className="page-display">
+                <h1>Education</h1>
+              </div>
             </Route>
             <Route path="/projects">
               <Subnav>
@@ -56,10 +65,14 @@ function App() {
                 <Subnavlink text="Clinical trials" link="/projects/trials"/>
                 <Subnavlink text="Other" link="/projects/other"/>
               </Subnav>
-              <h1>Projects</h1>
+              <div className="page-display">
+                <h1>Projects</h1>
+              </div>
             </Route>
-            <Route path="/contact me">
-              <h1>Contact me</h1>
+            <Route path="/contact">
+              <div className="page-display">
+                <h1>Contact me</h1>
+              </div>
             </Route>
             <Route path="/">
               <Redirect to="/home/introductions"/>

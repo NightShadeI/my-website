@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom"
 
-const Navlink = ({text, fa_code}) => {
+const Navlink = ({text, fa_code, link}) => {
 	return (
 		<li>
-			<Link to={`/${text}`}>
+			<Link to={link}>
 				<div className="nav-link">
 					<i className={fa_code}/> 
 					<span>{text}</span>
