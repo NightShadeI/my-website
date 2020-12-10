@@ -30,8 +30,7 @@ function App() {
               <Subnav>
                 <Subnavlink text="Programming" link="/skills/programming"/>
                 <Subnavlink text="Web development" link="/skills/webdev"/>
-                <Subnavlink text="Data science" link="/skills/datasci"/>
-                <Subnavlink text="Leadership" link="/skills/leadership"/>
+                <Subnavlink text="Databases" link="/skills/databases"/>
               </Subnav>
               <div className="page-display">
                 <Skills/>
