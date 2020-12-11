@@ -185,9 +185,7 @@ li {
 
 .skills, .experience {
 	height: 100%;
-	vertical-align: top;
 	overflow: auto;
-	top: 0;
 }
 
 .banner-wrapper {
