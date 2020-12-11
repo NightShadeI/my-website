@@ -20,7 +20,7 @@ const Home = () => {
 						<span>This has been created using <a href="https://reactjs.org/">react</a> to design the user interface. The backend is built using express. All styling is done using regular CSS. All design is publically available on Github at <a href="https://github.com/NightShadeI/my-website">this</a> link.</span>				
 					</Message>
 					<Message>
-						<span>If you have any quesions, don't hesitate to contact me using the <a href="/contact me">contact me</a> link here or via the navigation bar</span>
+						<span>If you have any quesions, don't hesitate to contact me using the <a href="/contact">contact me</a> link here or via the navigation bar</span>
 					</Message>
 				</div>
 			</Route>
@@ -73,7 +73,7 @@ const Home = () => {
 						<span>- My Github profile can be found <a href="https://github.com/NightShadeI">here</a></span>
 					</Message>
 					<Message>
-						<span>If you wish to get into contact with me, don't hesitate to contact me using the <a href="/contact me">contact me</a> link here or via the navigation bar</span>
+						<span>If you wish to get into contact with me, don't hesitate to contact me using the <a href="/contact">contact me</a> link here or via the navigation bar</span>
 					</Message>
 				</div>
 			</Route>

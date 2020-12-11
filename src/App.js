@@ -3,6 +3,7 @@ import Subnav from "./components/subnav.js";
 import Subnavlink from "./components/subnavlink.js";
 import Home from "./components/home.js";
 import Skills from "./components/skills.js";
+import Experience from "./components/experience.js"
 import {
   BrowserRouter as Router,
   Switch, Route, Redirect
@@ -38,12 +39,12 @@ function App() {
             </Route>
             <Route path="/experience">
               <Subnav>
-                <Subnavlink text="Junior engineers" link="/experience/jnreng"/>
-                <Subnavlink text="Macquarie bank" link="/experience/mqbank"/>
+                <Subnavlink text="Junior Engineers" link="/experience/jnreng"/>
+                <Subnavlink text="Macquarie Bank" link="/experience/mqbank"/>
                 <Subnavlink text="Other" link="/experience/other"/>
               </Subnav>
               <div className="page-display">
-                <h1>Experience</h1>
+                <Experience/>
               </div>
             </Route>
             <Route path="/education">
@@ -52,7 +53,10 @@ function App() {
                 <Subnavlink text="Barker College" link="/education/barker"/>
               </Subnav>
               <div className="page-display">
-                <h1>Education</h1>
+                <div className="other">
+                  <h1>Education</h1>
+                  <i>Coming soon. Under development</i>
+                </div>
               </div>
             </Route>
             <Route path="/projects">
@@ -65,12 +69,18 @@ function App() {
                 <Subnavlink text="Other" link="/projects/other"/>
               </Subnav>
               <div className="page-display">
-                <h1>Projects</h1>
+                <div className="other">
+                  <h1>Projects</h1>
+                  <i>Coming soon. Under development</i>
+                </div>
               </div>
             </Route>
             <Route path="/contact">
               <div className="page-display">
-                <h1>Contact me</h1>
+                <div className="other">
+                  <h1>Contact me</h1>
+                  <i>Coming soon. Under development</i>
+                </div>
               </div>
             </Route>
             <Route path="/">

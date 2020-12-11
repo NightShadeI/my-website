@@ -183,8 +183,17 @@ li {
   border-bottom-right-radius: 10px;
 }
 
-.skills {
+.skills, .experience {
 	height: 100%;
+	vertical-align: top;
+	overflow: auto;
+	top: 0;
+}
+
+.banner-wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
 }
 
 .banner {
@@ -192,10 +201,7 @@ li {
 	height: 100%;
 	padding: 5%;
 	padding-right: 3%;
-}
-
-.banner:nth-of-type(even) {
-	background-color: #1b296b;
+	position: relative;
 }
 
 .banner-content, .banner-left, .banner-right {
@@ -233,6 +239,22 @@ li {
 
 .banner-text p, .banner-text span {
 	font-size: 19px;
+}
+
+.banner-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#alteryx {
+	width: 100%;
+}
+
+.other {
+	margin-left: 30px;
 }
 
 ::selection {
