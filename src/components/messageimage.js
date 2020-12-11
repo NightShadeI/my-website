@@ -1,5 +1,3 @@
-import Avatar from "./avatar.js"
-
 const MessageImage = ({src, alt, caption}) => {
 	return (
 		<div className="message-container">

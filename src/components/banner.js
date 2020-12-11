@@ -2,7 +2,7 @@ const BannerLeft = (props) => {
 
 	return (
 		<div className="banner-wrapper">
-			{props.bgimage && <img src={props.bgimage} className="banner-background"/>}
+			{props.bgimage && <img src={props.bgimage} alt={props.heading} className="banner-background"/>}
 			<div className="banner" style={{backgroundColor: props.bgcolour}}>
 				<div className="banner-content">
 					<div className="banner-logo banner-left">
