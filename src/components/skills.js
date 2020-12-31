@@ -21,9 +21,9 @@ const Skills = () => {
 					<span>⭐ User interface design, designing a basic strategy game.</span>
 				</BannerRight>
 				<BannerLeft src="/images/C.png" heading="C language" bgcolour="darkgreen">
-					<p>C is a language that I have picked up fairly well despite the fact I have had limited exposure to it. This language I learnt during my time in the systems programming course at our university. This is a language I wish to explore further and plan to learn it more over this summer to re-engineer my rotation calculator application I made in python.</p>
+					<p>C and C++ are languages that I have picked up fairly well despite the fact I have had limited exposure to it. These languages I learnt during my time in the systems programming course at our university and through self learning. This is a language I wish to explore further and plan to learn it more over this summer to re-engineer my rotation calculator application I made in python (translating it into C++).</p>
 					<p>Over my summer so far I have used it to complete over 40 <a href="https://leetcode.com/NightShadeI/">leetcode</a> challenges, often achieving a result within the top 90%. Leetcode is a site with numerous coding puzzles to try solve with the most efficient solution you can.</p>
-					<p>In this course we were required to use it to read low level binary files, understanding the underlying structure within them. This allowed us to reverse engineer a C struct. I am a fast learner so this is a language I am determined and confident I can become fluent in quickly.</p>
+					<p>In this course we were required to use it to read low level binary files, understanding the underlying structure within them. This allowed us to reverse engineer and populate a C struct stored within the binary file.</p>
 				</BannerLeft>
 				<BannerRight src="/images/scala.png" heading="Scala" bgcolour="darkorange">
 					<p>Scala is one of the functional programming languages I know. This was a language that I used in my subject Programming languages at Macquarie university. We used scala to design a compiler over the semester that compiled what was called the "fun" language.</p>
