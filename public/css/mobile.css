@@ -40,4 +40,8 @@
 	.subnav ul {
 		width: calc(100% - 60px);
 	}
+
+	.subnav {
+		display: inline-block !important;	
+	}
 }

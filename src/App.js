@@ -77,6 +77,8 @@ function App() {
               </div>
             </Route>
             <Route path="/contact">
+              <Subnav nocontent={true}>
+              </Subnav>
               <div className="page-display">
                 <div className="other">
                   <h1>Contact me</h1>

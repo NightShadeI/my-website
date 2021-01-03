@@ -5,7 +5,6 @@ const Subnav = (props) => {
 	const [active, setActive] = useState(false)
 
 	window.onresize = e => {
-		console.log(window.innerWidth < 960);
 		if (window.innerWidth < 960) {
 			document.getElementById("navbar").style.transform = "translate(-100%)";
 		} else {
@@ -23,8 +22,10 @@ const Subnav = (props) => {
 		setActive(!active)
 	}
 
+	const styles = props.nocontent ? {display: "none"} : {}
+
 	return (
-		<div className="subnav">
+		<div className="subnav" style={styles}>
 			<ul>
 				{props.children}
 			</ul>

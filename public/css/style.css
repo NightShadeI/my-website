@@ -69,7 +69,7 @@ li {
 
 .subnav {
 	width: 100%;
-	height: 50px;
+	height: 56px;
 	border-bottom: 1px solid #444;
 }
 
@@ -286,6 +286,10 @@ li {
 
 .other {
 	margin-left: 30px;
+}
+
+.nocontent {
+	visibility: hidden;
 }
 
 ::selection {
