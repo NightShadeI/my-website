@@ -95,7 +95,7 @@ function App() {
                 <Subnavlink text="Clinical trials" link="/projects/trials"/>
                 <Subnavlink text="Other" link="/projects/other"/>
               </Subnav>
-              <div className="page-display">
+              <div className="page-display" onClick={() => modifyNav()}>
                 <div className="other">
                   <h1>Projects</h1>
                   <i>Coming soon. Under development</i>
