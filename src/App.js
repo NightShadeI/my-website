@@ -12,7 +12,7 @@ import {
 
 function App() {
 
-  const [active, setActive] = useState(true)
+  const [active, setActive] = useState(window.innerWidth < 960 ? false : true)
 
   useEffect(() => {
     if (active) {
