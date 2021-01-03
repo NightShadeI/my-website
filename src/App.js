@@ -103,7 +103,7 @@ function App() {
               </div>
             </Route>
             <Route path="/contact">
-              <Subnav nocontent={true}>
+              <Subnav nocontent={true} clickHandler={clickHandler}>
               </Subnav>
               <div className="page-display" onClick={() => modifyNav()}>
                 <div className="other">
