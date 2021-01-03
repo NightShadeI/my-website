@@ -94,10 +94,10 @@ li {
 	font-size: 23px;
 	cursor: pointer;
 	display: none;
-	border-left: 2px solid #444;
 }
 
 .subnav-link {
+	height: 56px;
 	vertical-align: top;
 	text-align: center;
 	border-bottom: none;
