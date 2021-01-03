@@ -12,7 +12,7 @@ import {
 
 function App() {
 
-  const [active, setActive] = useState(false)
+  const [active, setActive] = useState(true)
 
   useEffect(() => {
     if (active) {
