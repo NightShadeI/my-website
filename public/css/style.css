@@ -85,13 +85,13 @@ li {
 }
 
 #menu {
-	margin-top: -7px;
-	padding-right: 0px;
 	padding-left: 13px;
+	padding-right: 0px;
 	display: inline-block;
 	width: 60px;
-	height: 55px;
-	font-size: 24px;
+	height: 56px;
+	line-height: 20px;
+	font-size: 23px;
 	cursor: pointer;
 	display: none;
 	border-left: 2px solid #444;
