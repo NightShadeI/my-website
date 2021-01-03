@@ -2,7 +2,7 @@ import Navlink from './navlink.js'
 
 const Navigation = () => {
 	return (
-		<div className="navbar">
+		<div className="navbar" id="navbar">
 			<div className="nav-profile">
 				<img src="/images/avatar-me.jpg" alt="me"/>
 			</div>

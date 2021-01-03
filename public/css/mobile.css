@@ -4,14 +4,40 @@
 		transform: none;
 		width: 100%;
 	}
+
+	.banner-logo {
+		visibility: hidden;
+		width: 0%;
+	}
+
+	.banner-text {
+		width: 100%;
+		padding-top: 0px;
+	}
+
+	.mobile-header {
+		display: inline-block;
+	}
 }
 
 @media (max-width: 960px) {
 	.navbar {
-		display: none;
+		-webkit-transition-duration: 600ms;
+		transition-duration: 600ms;
+		position: fixed;
+		z-index: 1;
+		transform: translate(-100%);
 	}
 
 	.page-content {
 		width: 100%;
+	}
+
+	#menu {
+		display: inline-block;
+	}
+
+	.subnav ul {
+		width: calc(100% - 60px);
 	}
 }
