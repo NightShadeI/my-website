@@ -1,0 +1,17 @@
+@media (max-width: 750px) {
+	.messagebox {
+		margin-top: 0;
+		transform: none;
+		width: 100%;
+	}
+}
+
+@media (max-width: 960px) {
+	.navbar {
+		display: none;
+	}
+
+	.page-content {
+		width: 100%;
+	}
+}

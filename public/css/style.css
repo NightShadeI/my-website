@@ -104,9 +104,9 @@ li {
 
 .messagebox {
 	position: absolute;
-	transform: translate(50%, 0);
+	transform: translate(33%, 0);
 	overflow-y: scroll;
-	width: 50%;
+	width: 60%;
 	height: 95%;
 	margin-top: 20px;
 	background-color: #222;
