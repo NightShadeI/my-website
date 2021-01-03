@@ -71,6 +71,7 @@ li {
 	width: 100%;
 	height: 56px;
 	border-bottom: 1px solid #444;
+	line-height: 23px;
 }
 
 .subnav ul {
@@ -90,7 +91,6 @@ li {
 	display: inline-block;
 	width: 60px;
 	height: 56px;
-	line-height: 20px;
 	font-size: 23px;
 	cursor: pointer;
 	display: none;
