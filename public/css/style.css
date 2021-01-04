@@ -246,6 +246,7 @@ li {
 
 .banner-logo img {
 	height: 55vh;
+	max-width: 90%;
 }
 
 .banner-logo h1 {
