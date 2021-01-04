@@ -23,9 +23,9 @@ const Experience = () => {
 					<i>Content is accurate. Styling under development</i>
 					<p>Below I list some of the other experience I have had.</p>
 					<span>⭐ Worked with Telix Pharmaceuticals Limited to develop clinical trial randomization schemes</span><br/>
-					<span>⭐ 2013 - 2017 I performed weekly paper runs</span><br/>
-					<span>⭐ September 2015 I worked in the Japanese foundation</span><br/>
-					<span>⭐ July 2015 I worked in Sydney observatory</span>
+					<span>⭐ 2013 - 2017: I performed weekly paper runs</span><br/>
+					<span>⭐ September 2015: Work experience with the Japanese foundation</span><br/>
+					<span>⭐ July 2015: Work experience with Sydney observatory</span>
 				</div>
 			</Route>
 			<Route path="/">
