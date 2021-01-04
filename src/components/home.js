@@ -28,13 +28,13 @@ const Home = () => {
 				<div className = "messagebox">
 					<h1>About me</h1>
 					<Message>
-						<span>Ever since the age of around 15, I have been a keen software developer, enjoying the experience and challenges in which it provides. I first learnt about programming making games on a platform called scratch (for a school project), I loved it so much I continued to pursue software development subjects at school. My first real programming language was python, which I have used as the stepping stone to all the knowledge I have today (even some slightly different areas such as web development and artificial intelligence).</span>
+						<span>Ever since the age of around 15, I have been a keen software developer, enjoying the experience and challenges in which it provides. I first learnt about programming making games on a platform called scratch (for a school project), I loved it so much I continued to pursue software development subjects at school. My first real programming language was python, which I have used as the stepping stone for all the knowledge I have today (even some slightly different areas such as web development and artificial intelligence).</span>
 					</Message>
 					<Message>
-						<span>Using my knowledge, I have made many projects, some of which are used by thousands of people that I still love to now contribute to in my spare time. I have always been keen to help and teach others as well which is probably what got me into my first casual/part-time job at Junior engineers.</span>
+						<span>Using my knowledge, I have made many projects, some of which are used by thousands of people that I still love to now contribute to in my spare time. I have always been keen to help and teach others as well which is probably why I started my first casual/part-time job at Junior engineers.</span>
 					</Message>
 					<Message>
-						<span>Outside of work, education and programming I love to mountain bike or travel when I get the chance. I also like helping out at my church. On hot summer days (such as now) it is often nice to play games or relax in front of the television for a day watching Sci-fi shows or playing stratgic games (I love to challenge myself!) You can read more about my hobbies in the hobbies section.</span>
+						<span>Outside of work, education and programming I love to mountain bike or travel when I get the chance. I also like helping out at my church. On hot summer days (such as now) it is often nice to play games or relax in front of the television for a day watching Sci-fi shows or playing stratgic games (I love to challenge myself!). You can read more about my hobbies in the hobbies section.</span>
 					</Message>
 				</div>
 			</Route>
@@ -49,7 +49,7 @@ const Home = () => {
 					</Message>
 					<MessageImage src="/images/hornsbytracks.jpg" alt="Hornsby tracks" caption="The hornsby tracks"/>
 					<Message>
-						<span>I am also a big fan of travelling including canyoning. Just earlier this year I went to Empress falls (in the blue mountains) which included swimming and abseiling on a half a day long walk. I have visited Japan which was a personal highlight of mine, experiencing another culture.</span>
+						<span>I am also a big fan of travelling including canyoning. Just earlier this year I went to Empress falls (in the blue mountains) which included swimming and abseiling on a half-day long walk. I have visited Japan which was a personal highlight of mine, experiencing another culture and bringing home many stories.</span>
 					</Message>
 					<MessageImage src="/images/empressfalls.jpg" alt="Empress falls" caption="Empress falls"/>
 					<Message>
@@ -71,6 +71,7 @@ const Home = () => {
 						<span>- My LinkedIn profile can be found <a href="https://www.linkedin.com/in/thomas-tapner-1b5970158/">here</a></span><br/>
 						<span>- My Stack overflow profile can be found <a href="https://stackoverflow.com/users/7058803/nightshade">here</a></span><br/>
 						<span>- My Github profile can be found <a href="https://github.com/NightShadeI">here</a></span>
+						<span>- My Leetcode profile can be found <a href="https://leetcode.com/NightShadeI/">here</a></span>
 					</Message>
 					<Message>
 						<span>If you wish to get into contact with me, don't hesitate to contact me using the <a href="/contact">contact me</a> link here or via the navigation bar</span>
