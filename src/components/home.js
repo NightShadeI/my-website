@@ -70,7 +70,7 @@ const Home = () => {
 					<Message>
 						<span>- My LinkedIn profile can be found <a href="https://www.linkedin.com/in/thomas-tapner-1b5970158/">here</a></span><br/>
 						<span>- My Stack overflow profile can be found <a href="https://stackoverflow.com/users/7058803/nightshade">here</a></span><br/>
-						<span>- My Github profile can be found <a href="https://github.com/NightShadeI">here</a></span>
+						<span>- My Github profile can be found <a href="https://github.com/NightShadeI">here</a></span><br/>
 						<span>- My Leetcode profile can be found <a href="https://leetcode.com/NightShadeI/">here</a></span>
 					</Message>
 					<Message>
